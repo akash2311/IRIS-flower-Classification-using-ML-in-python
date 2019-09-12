@@ -16,7 +16,7 @@ warnings.simplefilter(action='ignore')
 import matplotlib.pyplot as plt
 
 
-from sklearn.datasets import load_iris
+from sklearn.datasets import load_iris ##importing the data of iris flower
 iris=load_iris()
 X=iris.data ##numpy array
 Y=iris.target  ##numpy array
